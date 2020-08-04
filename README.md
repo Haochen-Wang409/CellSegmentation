@@ -34,6 +34,6 @@ In folder `2DHeLa`, there are codes for training and predict in the 2-dimentiona
 Training data comes from: http://data.celltrackingchallenge.net/training-datasets/DIC-C2DH-HeLa.zip (37MB)  
 Testing data comes from: http://data.celltrackingchallenge.net/challenge-datasets/DIC-C2DH-HeLa.zip (41MB)  
 
-In folder `3DA549`, there are codes for training and predict in the 3-dimentional case.
+In folder `3DA549`, there are codes for training and predict in the 3-dimentional case.  
 Training data comes from: http://data.celltrackingchallenge.net/training-datasets/Fluo-C3DH-A549.zip (243 MB)  
 Testing data comes from: http://data.celltrackingchallenge.net/challenge-datasets/Fluo-C3DH-A549.zip (294 MB)
