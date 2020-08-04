@@ -7,8 +7,8 @@ There are two main subprojects. One for 2-dimention cells and the other one for 
 Because of the particularity of U-Net, the size of input images and ground truths must be a power of 2, including the number of image slices in the 3-dimentional case.
 
 To have a better understanding of this algorithm, I recomend you to read:  
-U-Net: Convolutional Networks for Biomedical Image Segmentation (arXiv:1505.04597v1 [cs.CV] 18 May 2015)  
-3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation (arXiv:1606.06650v1 [cs.CV] 21 Jun 2016)
+> U-Net: Convolutional Networks for Biomedical Image Segmentation (arXiv:1505.04597v1 [cs.CV] 18 May 2015)  
+> 3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation (arXiv:1606.06650v1 [cs.CV] 21 Jun 2016)
 
 ## Environment  
 - `PyTorch 1.5.1`  
