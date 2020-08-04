@@ -1,4 +1,4 @@
-# CellSegmentation
+# Cell Segmentation
 
 This is a project that mainly uses U-Net and Watershed to do cell segmentation. (mainly use PyTorch and OpenCV)  
 All the data comes from http://celltrackingchallenge.net/
