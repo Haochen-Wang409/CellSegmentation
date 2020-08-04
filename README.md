@@ -11,12 +11,12 @@ To have a better understanding of this algorithm, I recomend you to read:
 > 3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation (arXiv:1606.06650v1 [cs.CV] 21 Jun 2016)
 
 ## Environment  
-- `PyTorch 1.5.1`  
-- `Tensorflow 2.2.0` (to match TensorboardX)  
-- `Cudatoolkit 10.1` (depend on your CUDA version)  
-- `Tensorboard 2.2.2`  
-- `TensorboardX 2.1`  
-- `OpenCV-Python 4.3.0.36`  
+> `PyTorch 1.5.1`  
+> `Tensorflow 2.2.0` (to match TensorboardX)  
+> `Cudatoolkit 10.1` (depend on your CUDA version)  
+> `Tensorboard 2.2.2`  
+> `TensorboardX 2.1`  
+> `OpenCV-Python 4.3.0.36`  
 
 Other versions might work as well but I recomend you to install the version above.  
 In the 3-dimentional case, `SimpleITK` and `libtiff` are required as well.
