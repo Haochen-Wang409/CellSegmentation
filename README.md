@@ -27,3 +27,13 @@ The algorithm mainly contains 4 steps.
 > Step 2. Preprocessing (Normalization)  
 > Step 3. Training  
 > Step 4. Predict (first U-net and then watershed)  
+
+
+## Discriptions
+In folder `2DHeLa`, there are codes for training and predict in the 2-dimentional case.  
+Training data comes from: http://data.celltrackingchallenge.net/training-datasets/DIC-C2DH-HeLa.zip (37MB)  
+Testing data comes from: http://data.celltrackingchallenge.net/challenge-datasets/DIC-C2DH-HeLa.zip (41MB)  
+
+In folder `3DA549`, there are codes for training and predict in the 3-dimentional case.
+Training data comes from: http://data.celltrackingchallenge.net/training-datasets/Fluo-C3DH-A549.zip (243 MB)  
+Testing data comes from: http://data.celltrackingchallenge.net/challenge-datasets/Fluo-C3DH-A549.zip (294 MB)
