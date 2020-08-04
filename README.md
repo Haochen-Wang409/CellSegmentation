@@ -10,7 +10,7 @@ To have a better understanding of this algorithm, I recomend you to read:
 U-Net: Convolutional Networks for Biomedical Image Segmentation (arXiv:1505.04597v1 [cs.CV] 18 May 2015)  
 3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation (arXiv:1606.06650v1 [cs.CV] 21 Jun 2016)
 
-## Environment:  
+## Environment  
 - `PyTorch 1.5.1`  
 - `Tensorflow 2.2.0` (to match TensorboardX)  
 - `Cudatoolkit 10.1` (depend on your CUDA version)  
@@ -21,7 +21,7 @@ U-Net: Convolutional Networks for Biomedical Image Segmentation (arXiv:1505.0459
 Other versions might work as well but I recomend you to install the version above.  
 In the 3-dimentional case, `SimpleITK` and `libtiff` are required as well.
 
-## Steps:
+## Steps
 The algorithm mainly contains 4 steps.  
 > Step 1. Data Augmentation (Flip, Crop etc.)  
 > Step 2. Preprocessing (Normalization)  
