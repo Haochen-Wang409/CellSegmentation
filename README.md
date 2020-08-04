@@ -37,3 +37,13 @@ Testing data comes from: http://data.celltrackingchallenge.net/challenge-dataset
 In folder `3DA549`, there are codes for training and predict in the 3-dimentional case.  
 Training data comes from: http://data.celltrackingchallenge.net/training-datasets/Fluo-C3DH-A549.zip (243 MB)  
 Testing data comes from: http://data.celltrackingchallenge.net/challenge-datasets/Fluo-C3DH-A549.zip (294 MB)
+
+## Notes
+In both folder, `calculate_acc.py` is useless, you could ignore it.  
+You MUST change the PATH in `preprocessing.py`, `train.py`, `predict_dataset.py` and `create_tracking.py`.  
+
+## How to run
+1. Run `preprocessing.py` and then, training input images will be stored in /path/image and ground truths will be stored in /path/mask.  
+2. Run `train.py`
+3. Run `predict_dataset.py`
+4. Run `create_tracking.py`
